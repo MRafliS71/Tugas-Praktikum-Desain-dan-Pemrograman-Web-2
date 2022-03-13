@@ -1,0 +1,198 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gotham',sans-serif;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+
+nav {
+  position: relative;
+  background-color: #ED3237;
+  width: 100%;
+  padding: 15px 0;
+  z-index: 100;
+}
+
+.nav-menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-menu .logo{
+  padding: 10px;
+  margin-left: 20px;
+  filter: drop-shadow(10px 10px 10px white);
+}
+
+.nav-menu ul{
+  margin-right: 50px;
+}
+
+.nav-menu ul li{
+  display: inline-flex;
+  list-style: none;
+  margin-left: 10px;
+}
+
+.nav-menu ul li a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.header-board{
+  padding-top: 60px;
+  height: 350px;
+  text-align: center;
+}
+
+.header-board h2{
+  font-size: xx-large;
+  color: #373435;
+}
+
+.header-logo{
+  padding: 20px;
+}
+
+.content1, .content3, .content5{
+  background-color: #ED3237;
+  display: block;
+  color: #ffffff;
+}
+
+.content2, .content4{
+  background-color: #ffffff;
+  display: block;
+  text-align: center;
+  padding: 20px;
+  color: #ED3237;
+
+}
+
+.cabang, .boxcontent{ 
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding: 50px;
+}
+
+.promo{
+  text-align: center;
+  padding: 60px;
+}
+
+.promo1:hover{
+  transform: scale(1.01);
+  box-shadow: 10px 10px 10px #373435;
+}
+
+.portal{
+  height: 87%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.boxmurid, .boxguru{
+  display: block;
+  background-color: #ED3237;
+  width: 300px;
+  height: 270px;
+  align-items: center;
+  padding-top: 70px;
+  color: white;
+  border-radius: 20px;
+}
+
+.boxmurid:hover , .boxguru:hover, .paket:hover{
+  background-color: #f76166;
+  transform: scale(1.01);
+  box-shadow: 10px 10px 10px #373435;
+}
+
+.cabang_1, .boxcontent_1{
+  display: flex;
+  justify-content:space-around;
+  flex-direction: column;
+  text-align: justify;
+  align-items: center;
+  color: #ED3237;
+  background-color: #ffffff;
+  width: 30%;
+  padding: 20px;
+  border-radius: 25px;
+}
+.cabang_1:hover, .boxcontent_1:hover{
+  background-color: #ffc7c9;
+  transform: scale(1.01);
+  box-shadow: 10px 10px 10px #373435;
+}
+.gambar-cabang {
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.content4{
+  display: grid;
+  padding: 35px;
+  height: 500px;
+  grid-column: auto;
+  grid-column-gap: 0px;
+  grid-row-gap: 30px;
+}
+
+.paket{
+  background-color: #ED3237;
+  border-radius: 25px;
+  
+}
+
+.paket-huruf{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.paket-huruf h3{
+  padding-top: 30px;
+}
+
+.boxcontent h2{
+  text-decoration: none;
+}
+
+h1, h2, h3, h4{
+  padding: 10px;
+}
+
+footer{
+  display: flex;
+  background: #fff;
+  width: 100%;
+  height: 80px;
+  color: #ED3237;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.contentpromo{
+  display: grid;
+  padding: 40px;
+  height: 500px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 20% 1fr;
+  grid-column-gap: 40px;
+  grid-row-gap: 0px;
+  text-align: justify;
+}
